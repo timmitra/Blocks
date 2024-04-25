@@ -13,9 +13,7 @@ struct ContentView: View {
         NavigationView {
           List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
             NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-              Text("Text")
-                .font(.title2)
-                .fontWeight(.bold)
+              NewsCell()
             }
             .navigationTitle("News")
           }
@@ -39,6 +37,22 @@ struct ContentView: View {
     }
 }
 
-#Preview {
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
+    NewsCell()
+      .previewLayout(.sizeThatFits)
     ContentView()
+  }
+}
+
+struct NewsCell: View {
+  var body: some View {
+    VStack(alignment: .leading) {
+      Text("Text")
+        .font(.title2)
+      .fontWeight(.bold)
+      Text("Tertiary Text")
+        .foregroundColor(Color.gray)
+    }
+  }
 }
