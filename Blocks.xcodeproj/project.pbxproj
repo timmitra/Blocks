@@ -12,6 +12,8 @@
 		2A7256792BD9E8F100DAD2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7256782BD9E8F100DAD2D5 /* Assets.xcassets */; };
 		2A72567C2BD9E8F100DAD2D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A72567B2BD9E8F100DAD2D5 /* Preview Assets.xcassets */; };
 		2A7256832BD9F32A00DAD2D5 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7256822BD9F32A00DAD2D5 /* NewsCell.swift */; };
+		2A7256852BD9F5EB00DAD2D5 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7256842BD9F5EB00DAD2D5 /* Article.swift */; };
+		2A7256872BD9F67A00DAD2D5 /* Article+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7256862BD9F67A00DAD2D5 /* Article+Mock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		2A7256782BD9E8F100DAD2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A72567B2BD9E8F100DAD2D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A7256822BD9F32A00DAD2D5 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		2A7256842BD9F5EB00DAD2D5 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		2A7256862BD9F67A00DAD2D5 /* Article+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+Mock.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				2A7256782BD9E8F100DAD2D5 /* Assets.xcassets */,
 				2A72567A2BD9E8F100DAD2D5 /* Preview Content */,
 				2A7256822BD9F32A00DAD2D5 /* NewsCell.swift */,
+				2A7256842BD9F5EB00DAD2D5 /* Article.swift */,
+				2A7256862BD9F67A00DAD2D5 /* Article+Mock.swift */,
 			);
 			path = Blocks;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7256852BD9F5EB00DAD2D5 /* Article.swift in Sources */,
 				2A7256772BD9E8EF00DAD2D5 /* ContentView.swift in Sources */,
 				2A7256832BD9F32A00DAD2D5 /* NewsCell.swift in Sources */,
+				2A7256872BD9F67A00DAD2D5 /* Article+Mock.swift in Sources */,
 				2A7256752BD9E8EF00DAD2D5 /* BlocksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
