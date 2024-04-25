@@ -12,6 +12,8 @@ struct ContentView: View {
       TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
         NavigationView {
           Text("Tab Content 1")
+            .font(.title2)
+            .fontWeight(.bold)
             .navigationTitle("News")
         }
         .tabItem { Text("News") }.tag(1)
@@ -26,6 +28,7 @@ struct ContentView: View {
         }
         .tabItem { Text("Chat") }.tag(2)
       }
+      .accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
     }
 }
 
